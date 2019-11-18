@@ -1,4 +1,4 @@
-FROM dimkr/c-dev:latest
+FROM dimkr/c-dev:slim
 
 ENV GOPATH /go
 ENV PATH $PATH:/usr/local/go/bin:$GOPATH/bin
